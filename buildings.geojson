@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "name": "sample_buildings",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    { "type": "Feature", "properties": { "id": 1, "name": "Meenakshi Complex", "building_type": "Commercial", "floors": 4 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.1180,9.9250],[78.1186,9.9250],[78.1186,9.9256],[78.1180,9.9256],[78.1180,9.9250]]] } },
+    { "type": "Feature", "properties": { "id": 2, "name": "Vandiyur Residency", "building_type": "Residential", "floors": 2 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.1300,9.9100],[78.1306,9.9100],[78.1306,9.9106],[78.1300,9.9106],[78.1300,9.9100]]] } },
+    { "type": "Feature", "properties": { "id": 3, "name": "Anna Nagar School", "building_type": "Institutional", "floors": 3 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.1050,9.9350],[78.1058,9.9350],[78.1058,9.9358],[78.1050,9.9358],[78.1050,9.9350]]] } },
+    { "type": "Feature", "properties": { "id": 4, "name": "K.K. Nagar Apartments", "building_type": "Residential", "floors": 6 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.0980,9.9200],[78.0987,9.9200],[78.0987,9.9207],[78.0980,9.9207],[78.0980,9.9200]]] } },
+    { "type": "Feature", "properties": { "id": 5, "name": "Simmakkal Trade Center", "building_type": "Commercial", "floors": 5 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.1210,9.9280],[78.1217,9.9280],[78.1217,9.9287],[78.1210,9.9287],[78.1210,9.9280]]] } },
+    { "type": "Feature", "properties": { "id": 6, "name": "Government Hospital Block", "building_type": "Institutional", "floors": 4 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.1150,9.9180],[78.1158,9.9180],[78.1158,9.9188],[78.1150,9.9188],[78.1150,9.9180]]] } },
+    { "type": "Feature", "properties": { "id": 7, "name": "Villapuram Homes", "building_type": "Residential", "floors": 2 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.1400,9.9050],[78.1406,9.9050],[78.1406,9.9056],[78.1400,9.9056],[78.1400,9.9050]]] } },
+    { "type": "Feature", "properties": { "id": 8, "name": "Tallakulam Mall", "building_type": "Commercial", "floors": 3 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.1080,9.9400],[78.1088,9.9400],[78.1088,9.9408],[78.1080,9.9408],[78.1080,9.9400]]] } },
+    { "type": "Feature", "properties": { "id": 9, "name": "Arasaradi College Block", "building_type": "Institutional", "floors": 3 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.0900,9.9300],[78.0908,9.9300],[78.0908,9.9308],[78.0900,9.9308],[78.0900,9.9300]]] } },
+    { "type": "Feature", "properties": { "id": 10, "name": "Goripalayam Residency", "building_type": "Residential", "floors": 3 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.1230,9.9330],[78.1236,9.9330],[78.1236,9.9336],[78.1230,9.9336],[78.1230,9.9330]]] } },
+    { "type": "Feature", "properties": { "id": 11, "name": "Mattuthavani Warehouse", "building_type": "Commercial", "floors": 1 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.1450,9.9450],[78.1460,9.9450],[78.1460,9.9460],[78.1450,9.9460],[78.1450,9.9450]]] } },
+    { "type": "Feature", "properties": { "id": 12, "name": "Thiagarajar Institute Block", "building_type": "Institutional", "floors": 4 },
+      "geometry": { "type": "Polygon", "coordinates": [[[78.0950,9.9450],[78.0958,9.9450],[78.0958,9.9458],[78.0950,9.9458],[78.0950,9.9450]]] } }
+  ]
+}

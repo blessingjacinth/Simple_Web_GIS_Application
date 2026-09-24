@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Simple Web GIS Application</title>
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <h1>Madurai Building Explorer</h1>
+    <span class="subtitle">Simple Web GIS Application</span>
+  </header>
+
+  <div class="app-shell">
+
+    <aside class="panel">
+
+      <section class="panel-block">
+        <h2>Layers</h2>
+        <label class="layer-toggle">
+          <input type="checkbox" id="toggle-buildings" checked />
+          Buildings
+        </label>
+      </section>
+
+      <section class="panel-block">
+        <h2>Colour by attribute</h2>
+        <select id="color-attribute">
+          <option value="building_type">Building type</option>
+          <option value="floors">Floors</option>
+          <option value="none">Single colour</option>
+        </select>
+        <div id="legend" class="legend"></div>
+      </section>
+
+      <section class="panel-block">
+        <h2>Tools</h2>
+        <button id="zoom-to-layer">Zoom to layer</button>
+      </section>
+
+      <section class="panel-block stat-block">
+        <h2>Summary</h2>
+        <p><span id="feature-count">0</span> features loaded</p>
+      </section>
+
+      <section class="panel-block">
+        <h2>Selected feature</h2>
+        <div id="attribute-table">
+          <p class="muted">Click a building on the map to see its attributes.</p>
+        </div>
+      </section>
+
+    </aside>
+
+    <main class="map-wrap">
+      <div id="map"></div>
+    </main>
+
+  </div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
